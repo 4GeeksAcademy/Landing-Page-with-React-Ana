@@ -20,7 +20,9 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<MainCard />
+			<div className="container mt-3">
+				<MainCard />
+			</div>
 			<div className="container mt-5">
 				<div className="row g-4">
 					{pilares.map((item, index) => (
