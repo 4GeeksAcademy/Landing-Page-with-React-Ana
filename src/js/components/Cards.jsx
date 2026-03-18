@@ -8,7 +8,7 @@ const Cards = (props) => {
                 <div className="card-body d-flex flex-column text-start text-md-center">
                     <h5 className="card-title">{props.nombre}</h5>
                     <p className="card-text">{props.descripcion}</p>
-                    <a href="#" className="btn btn-primary mt-auto">Go somewhere</a>
+                    <a href="#" className="btn btn-primary mt-auto">Learn more</a>
                 </div>
             </div>
         </div>
