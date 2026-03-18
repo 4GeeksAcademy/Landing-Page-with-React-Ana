@@ -8,7 +8,7 @@ const Navbar = () => {
                 
                     <div className="container">
                         <a className="navbar-brand" href="#">
-                            <img src="https://avantadesignlab.com/wp-content/uploads/avanta-logo-azul_final-1.png" alt="Logo" style={{ width: "100px" }} className="d-inline-block align-text-top" />
+                            <img src="https://avantadesignlab.com/wp-content/uploads/avanta-logo-azul_final-1.png" alt="Logo" style={{ width: "200px" }} className="d-inline-block align-text-top" />
 
                         </a>
 
@@ -16,7 +16,7 @@ const Navbar = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav">
+                            <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
