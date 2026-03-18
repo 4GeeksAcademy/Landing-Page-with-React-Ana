@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         <div>
 
-            <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-0">
-                <div className="container px-0">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                
                     <div className="container">
                         <a className="navbar-brand" href="#">
                             <img src="https://avantadesignlab.com/wp-content/uploads/avanta-logo-azul_final-1.png" alt="Logo" style={{ width: "100px" }} className="d-inline-block align-text-top" />
@@ -32,7 +32,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                
             </nav>
         </div>
     )
