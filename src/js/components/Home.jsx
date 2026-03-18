@@ -20,10 +20,10 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="container mt-3">
+			<div className="container mt-5">
 				<MainCard />
 			</div>
-			<div className="container mt-5">
+			<div className="container mt-5 mb-3">
 				<div className="row g-4">
 					{pilares.map((item, index) => (
 						<div key={index} className="col-12 col-sm-6 col-lg-3 mb-4 d-flex">
